@@ -17,3 +17,4 @@ echo '{"task_id":"3","title":"flask ml" , "desc":"creating ml module","due_date"
 GET http://127.0.0.1:5000/funnlHQ/tasks/2 
 DELETE http://127.0.0.1:5000/funnlHQ/tasks/2 
 '{"task_id":2,"title":"flask backend project","desc":"to create delete request","due_date":"13/2/23","status":"completed"}' | PUT http://127.0.0.1:5000/funnelHQ/tasks/2
+]
