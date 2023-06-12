@@ -36,7 +36,7 @@ def emp_tasks():
         task_obj = tasks.get(task_id,{})
         return make_response(jsonify(task_obj),201)
     
-@app.route('/funnlHQ/tasks/<task_id>', methods=['GET', 'POST','DELETE'])
+@app.route('/funnlHQ/tasks/<task_id>', methods=['GET', 'PUT','DELETE'])
 def each_task(task_id):
     if request.method == "GET":
         task_obj = tasks.get(task_id,{})
